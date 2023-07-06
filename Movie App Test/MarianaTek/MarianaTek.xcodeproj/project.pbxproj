@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9246DD2C2A555D3900F91375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD2B2A555D3900F91375 /* AppDelegate.swift */; };
+		9246DD2E2A555D3900F91375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD2D2A555D3900F91375 /* SceneDelegate.swift */; };
+		9246DD302A555D3900F91375 /* MovieSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD2F2A555D3900F91375 /* MovieSearchViewController.swift */; };
+		9246DD332A555D3900F91375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9246DD312A555D3900F91375 /* Main.storyboard */; };
+		9246DD362A555D3900F91375 /* MarianaTek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD342A555D3900F91375 /* MarianaTek.xcdatamodeld */; };
+		9246DD382A555D3E00F91375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9246DD372A555D3E00F91375 /* Assets.xcassets */; };
+		9246DD3B2A555D3E00F91375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9246DD392A555D3E00F91375 /* LaunchScreen.storyboard */; };
+		9246DD462A555D3E00F91375 /* MarianaTekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD452A555D3E00F91375 /* MarianaTekTests.swift */; };
+		9246DD502A555D3E00F91375 /* MarianaTekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD4F2A555D3E00F91375 /* MarianaTekUITests.swift */; };
+		9246DD522A555D3E00F91375 /* MarianaTekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD512A555D3E00F91375 /* MarianaTekUITestsLaunchTests.swift */; };
+		9246DD5F2A555D6C00F91375 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD5E2A555D6C00F91375 /* MovieModel.swift */; };
+		9246DD632A555DA500F91375 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD622A555DA500F91375 /* MovieViewModel.swift */; };
+		9246DD672A5569C100F91375 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD662A5569C100F91375 /* MovieService.swift */; };
+		9246DD692A558B7200F91375 /* MovieViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246DD682A558B7200F91375 /* MovieViewModelTests.swift */; };
+		92BC3ECE2A56654E00B9E325 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC3ECD2A56654E00B9E325 /* MovieTableViewCell.swift */; };
+		92BC3ED02A56674F00B9E325 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC3ECF2A56674F00B9E325 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9246DD422A555D3E00F91375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9246DD202A555D3900F91375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9246DD272A555D3900F91375;
+			remoteInfo = MarianaTek;
+		};
+		9246DD4C2A555D3E00F91375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9246DD202A555D3900F91375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9246DD272A555D3900F91375;
+			remoteInfo = MarianaTek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9246DD282A555D3900F91375 /* MarianaTek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarianaTek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9246DD2B2A555D3900F91375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9246DD2D2A555D3900F91375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9246DD2F2A555D3900F91375 /* MovieSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchViewController.swift; sourceTree = "<group>"; };
+		9246DD322A555D3900F91375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9246DD352A555D3900F91375 /* MarianaTek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarianaTek.xcdatamodel; sourceTree = "<group>"; };
+		9246DD372A555D3E00F91375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9246DD3A2A555D3E00F91375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9246DD3C2A555D3E00F91375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9246DD412A555D3E00F91375 /* MarianaTekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarianaTekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9246DD452A555D3E00F91375 /* MarianaTekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarianaTekTests.swift; sourceTree = "<group>"; };
+		9246DD4B2A555D3E00F91375 /* MarianaTekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarianaTekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9246DD4F2A555D3E00F91375 /* MarianaTekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarianaTekUITests.swift; sourceTree = "<group>"; };
+		9246DD512A555D3E00F91375 /* MarianaTekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarianaTekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9246DD5E2A555D6C00F91375 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		9246DD622A555DA500F91375 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		9246DD662A5569C100F91375 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		9246DD682A558B7200F91375 /* MovieViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModelTests.swift; sourceTree = "<group>"; };
+		92BC3ECD2A56654E00B9E325 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		92BC3ECF2A56674F00B9E325 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9246DD252A555D3900F91375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9246DD3E2A555D3E00F91375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9246DD482A555D3E00F91375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9246DD1F2A555D3900F91375 = {
+			isa = PBXGroup;
+			children = (
+				9246DD2A2A555D3900F91375 /* MarianaTek */,
+				9246DD442A555D3E00F91375 /* MarianaTekTests */,
+				9246DD4E2A555D3E00F91375 /* MarianaTekUITests */,
+				9246DD292A555D3900F91375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9246DD292A555D3900F91375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD282A555D3900F91375 /* MarianaTek.app */,
+				9246DD412A555D3E00F91375 /* MarianaTekTests.xctest */,
+				9246DD4B2A555D3E00F91375 /* MarianaTekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9246DD2A2A555D3900F91375 /* MarianaTek */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD2B2A555D3900F91375 /* AppDelegate.swift */,
+				9246DD2D2A555D3900F91375 /* SceneDelegate.swift */,
+				92BC3ECF2A56674F00B9E325 /* Constants.swift */,
+				9246DD652A5569A900F91375 /* Services */,
+				9246DD642A555E1700F91375 /* ViewController */,
+				9246DD612A555D8B00F91375 /* ViewModel */,
+				9246DD602A555D7400F91375 /* Model */,
+				92BC3ECC2A56653300B9E325 /* View */,
+				9246DD372A555D3E00F91375 /* Assets.xcassets */,
+				9246DD392A555D3E00F91375 /* LaunchScreen.storyboard */,
+				9246DD3C2A555D3E00F91375 /* Info.plist */,
+				9246DD342A555D3900F91375 /* MarianaTek.xcdatamodeld */,
+			);
+			path = MarianaTek;
+			sourceTree = "<group>";
+		};
+		9246DD442A555D3E00F91375 /* MarianaTekTests */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD452A555D3E00F91375 /* MarianaTekTests.swift */,
+				9246DD682A558B7200F91375 /* MovieViewModelTests.swift */,
+			);
+			path = MarianaTekTests;
+			sourceTree = "<group>";
+		};
+		9246DD4E2A555D3E00F91375 /* MarianaTekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD4F2A555D3E00F91375 /* MarianaTekUITests.swift */,
+				9246DD512A555D3E00F91375 /* MarianaTekUITestsLaunchTests.swift */,
+			);
+			path = MarianaTekUITests;
+			sourceTree = "<group>";
+		};
+		9246DD602A555D7400F91375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD5E2A555D6C00F91375 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9246DD612A555D8B00F91375 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD622A555DA500F91375 /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9246DD642A555E1700F91375 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD2F2A555D3900F91375 /* MovieSearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9246DD652A5569A900F91375 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD662A5569C100F91375 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92BC3ECC2A56653300B9E325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9246DD312A555D3900F91375 /* Main.storyboard */,
+				92BC3ECD2A56654E00B9E325 /* MovieTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9246DD272A555D3900F91375 /* MarianaTek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9246DD552A555D3E00F91375 /* Build configuration list for PBXNativeTarget "MarianaTek" */;
+			buildPhases = (
+				9246DD242A555D3900F91375 /* Sources */,
+				9246DD252A555D3900F91375 /* Frameworks */,
+				9246DD262A555D3900F91375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarianaTek;
+			productName = MarianaTek;
+			productReference = 9246DD282A555D3900F91375 /* MarianaTek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9246DD402A555D3E00F91375 /* MarianaTekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9246DD582A555D3E00F91375 /* Build configuration list for PBXNativeTarget "MarianaTekTests" */;
+			buildPhases = (
+				9246DD3D2A555D3E00F91375 /* Sources */,
+				9246DD3E2A555D3E00F91375 /* Frameworks */,
+				9246DD3F2A555D3E00F91375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9246DD432A555D3E00F91375 /* PBXTargetDependency */,
+			);
+			name = MarianaTekTests;
+			productName = MarianaTekTests;
+			productReference = 9246DD412A555D3E00F91375 /* MarianaTekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9246DD4A2A555D3E00F91375 /* MarianaTekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9246DD5B2A555D3E00F91375 /* Build configuration list for PBXNativeTarget "MarianaTekUITests" */;
+			buildPhases = (
+				9246DD472A555D3E00F91375 /* Sources */,
+				9246DD482A555D3E00F91375 /* Frameworks */,
+				9246DD492A555D3E00F91375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9246DD4D2A555D3E00F91375 /* PBXTargetDependency */,
+			);
+			name = MarianaTekUITests;
+			productName = MarianaTekUITests;
+			productReference = 9246DD4B2A555D3E00F91375 /* MarianaTekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9246DD202A555D3900F91375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9246DD272A555D3900F91375 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					9246DD402A555D3E00F91375 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 9246DD272A555D3900F91375;
+					};
+					9246DD4A2A555D3E00F91375 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 9246DD272A555D3900F91375;
+					};
+				};
+			};
+			buildConfigurationList = 9246DD232A555D3900F91375 /* Build configuration list for PBXProject "MarianaTek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9246DD1F2A555D3900F91375;
+			productRefGroup = 9246DD292A555D3900F91375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9246DD272A555D3900F91375 /* MarianaTek */,
+				9246DD402A555D3E00F91375 /* MarianaTekTests */,
+				9246DD4A2A555D3E00F91375 /* MarianaTekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9246DD262A555D3900F91375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9246DD3B2A555D3E00F91375 /* LaunchScreen.storyboard in Resources */,
+				9246DD382A555D3E00F91375 /* Assets.xcassets in Resources */,
+				9246DD332A555D3900F91375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9246DD3F2A555D3E00F91375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9246DD492A555D3E00F91375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9246DD242A555D3900F91375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9246DD362A555D3900F91375 /* MarianaTek.xcdatamodeld in Sources */,
+				9246DD302A555D3900F91375 /* MovieSearchViewController.swift in Sources */,
+				92BC3ECE2A56654E00B9E325 /* MovieTableViewCell.swift in Sources */,
+				9246DD5F2A555D6C00F91375 /* MovieModel.swift in Sources */,
+				9246DD2C2A555D3900F91375 /* AppDelegate.swift in Sources */,
+				9246DD2E2A555D3900F91375 /* SceneDelegate.swift in Sources */,
+				9246DD632A555DA500F91375 /* MovieViewModel.swift in Sources */,
+				9246DD672A5569C100F91375 /* MovieService.swift in Sources */,
+				92BC3ED02A56674F00B9E325 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9246DD3D2A555D3E00F91375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9246DD462A555D3E00F91375 /* MarianaTekTests.swift in Sources */,
+				9246DD692A558B7200F91375 /* MovieViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9246DD472A555D3E00F91375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9246DD502A555D3E00F91375 /* MarianaTekUITests.swift in Sources */,
+				9246DD522A555D3E00F91375 /* MarianaTekUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9246DD432A555D3E00F91375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9246DD272A555D3900F91375 /* MarianaTek */;
+			targetProxy = 9246DD422A555D3E00F91375 /* PBXContainerItemProxy */;
+		};
+		9246DD4D2A555D3E00F91375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9246DD272A555D3900F91375 /* MarianaTek */;
+			targetProxy = 9246DD4C2A555D3E00F91375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9246DD312A555D3900F91375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9246DD322A555D3900F91375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9246DD392A555D3E00F91375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9246DD3A2A555D3E00F91375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9246DD532A555D3E00F91375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9246DD542A555D3E00F91375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9246DD562A555D3E00F91375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarianaTek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MarianaTek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9246DD572A555D3E00F91375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarianaTek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MarianaTek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9246DD592A555D3E00F91375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MarianaTekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarianaTek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarianaTek";
+			};
+			name = Debug;
+		};
+		9246DD5A2A555D3E00F91375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MarianaTekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarianaTek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarianaTek";
+			};
+			name = Release;
+		};
+		9246DD5C2A555D3E00F91375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MarianaTekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarianaTek;
+			};
+			name = Debug;
+		};
+		9246DD5D2A555D3E00F91375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MarianaTekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarianaTek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9246DD232A555D3900F91375 /* Build configuration list for PBXProject "MarianaTek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9246DD532A555D3E00F91375 /* Debug */,
+				9246DD542A555D3E00F91375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9246DD552A555D3E00F91375 /* Build configuration list for PBXNativeTarget "MarianaTek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9246DD562A555D3E00F91375 /* Debug */,
+				9246DD572A555D3E00F91375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9246DD582A555D3E00F91375 /* Build configuration list for PBXNativeTarget "MarianaTekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9246DD592A555D3E00F91375 /* Debug */,
+				9246DD5A2A555D3E00F91375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9246DD5B2A555D3E00F91375 /* Build configuration list for PBXNativeTarget "MarianaTekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9246DD5C2A555D3E00F91375 /* Debug */,
+				9246DD5D2A555D3E00F91375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9246DD342A555D3900F91375 /* MarianaTek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9246DD352A555D3900F91375 /* MarianaTek.xcdatamodel */,
+			);
+			currentVersion = 9246DD352A555D3900F91375 /* MarianaTek.xcdatamodel */;
+			path = MarianaTek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9246DD202A555D3900F91375 /* Project object */;
+}
